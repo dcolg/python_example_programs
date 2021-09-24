@@ -15,8 +15,7 @@ class FirstLargest(unittest.TestCase):
         expect = 5, 0
         got = largest_element(given, loc=True)
         self.assertEqual(got, expect)
-   
-    """ ADD MORE  """
+
 
 if __name__ == '__main__':
     unittest.main()
